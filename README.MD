@@ -20,18 +20,20 @@ A fully-connected neural network trained on MNIST digit classification, implemen
 | `main_cblas` | CPU + OpenBLAS | BLAS-accelerated GEMM |
 | `main_native` | CPU + OpenMP | Hand-coded tiled GEMM (32×32 tiles) |
 | `main_gpu` | CUDA hand-coded | Custom GEMM kernel (16×16 shared-memory tiles) |
-| `main_gpu_cublas` | CUDA + cuBLAS | Production-quality GPU path |
+| `main_gpu_cublas` | CUDA + cuBLAS | cuBLAS via `USE_CUBLAS` flag; `my_gemm()` wraps `cublasSgemm` with row-major↔column-major swap |
 
-## Performance (5 epochs, Volta GPU)
+## Performance (50 epochs)
 
-| Implementation | Train Time | Infer Time | Grind Rate | Test Acc |
-|---|---|---|---|---|
-| CPU BLAS | 2.80s | 0.053s | 89k samples/s | 87.5% |
-| CPU Native GEMM | 3.42s | 0.064s | 73k samples/s | 88.4% |
-| GPU Hand-coded | 4.18s | 0.023s | 717k samples/s | — |
-| GPU cuBLAS | 4.19s | 0.017s | 597k samples/s | 94.5% |
+| Version | Processor | Accuracy | Grind Rate (samples/s) | Training Time (s) | TPB / CPU cores |
+|---|---|---|---|---|---|
+| GPU Native | V100 | 94.18% | 584,046 | 4.2 | 256 |
+| GPU cuBLAS | V100 | 94.28% | 543,609 | 4.5 | 256 |
+| CPU Native | Caslake | 94.17% | 92,763 | 26.95 | 8 |
+| CPU BLAS | Caslake | 94.11% | 139,653 | 17.90 | 8 |
 
-GPU inference is ~6× faster than CPU BLAS. Full 50-epoch cuBLAS training reaches **94.45% test accuracy**.
+GPU native achieves the highest grind rate (~584k samples/s), ~6.3× faster than CPU BLAS. All four backends reach ~94% test accuracy after 50 epochs.
+
+**Anomalous behavior:** GPU cuBLAS is slightly slower than GPU native (543k vs 584k samples/s, 4.5s vs 4.2s training time). This is likely due to overhead from the cuBLAS handle and the row-major→column-major transpose at each GEMM call outweighing cuBLAS's kernel efficiency at this matrix size.
 
 ## File Structure
 
