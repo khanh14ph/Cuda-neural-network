@@ -1,0 +1,181 @@
+=== BLAS (cblas_sgemm) ===
+Loading MNIST Train...
+Loaded 60000 images.
+Loading MNIST Test...
+Loaded 10000 images.
+Epoch 1 | Train Loss: -nan | Train Acc: 54.672% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 2 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 3 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 4 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 5 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 6 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 7 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 8 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 9 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 10 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 11 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 12 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 13 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 14 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 15 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 16 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 17 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 18 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 19 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 20 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 21 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 22 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 23 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 24 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 25 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 26 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 27 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 28 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 29 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 30 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 31 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 32 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 33 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 34 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 35 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 36 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 37 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 38 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 39 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 40 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 41 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 42 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 43 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 44 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 45 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 46 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 47 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 48 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 49 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 50 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+ | Test Acc: 9.8%
+Train time: 19.5196
+Infer time: 0.0387462
+Grind Rate: 128077
+=== Hand-coded tiled GEMM ===
+Loading MNIST Train...
+Loaded 60000 images.
+Loading MNIST Test...
+Loaded 10000 images.
+Epoch 1 | Train Loss: -nan | Train Acc: 36.938% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 2 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 3 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 4 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 5 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 6 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 7 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 8 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 9 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 10 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 11 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 12 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 13 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 14 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 15 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 16 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 17 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 18 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 19 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 20 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 21 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 22 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 23 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 24 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 25 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 26 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 27 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 28 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 29 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 30 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 31 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 32 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 33 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 34 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 35 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 36 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 37 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 38 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 39 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 40 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 41 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 42 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 43 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 44 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 45 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 46 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 47 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 48 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 49 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+Epoch 50 | Train Loss: -nan | Train Acc: 9.864% | Val Loss: -nan | Val Acc: 9.91%
+ | Test Acc: 9.8%
+Train time: 25.3424
+Infer time: 0.046165
+Grind Rate: 98648.8
+=== GPU hand-coded GEMM ===
+Using hand-coded GEMM
+Train: 60000  Test: 10000
+ | Test Acc: 0%
+Train time: 3.82914
+Infer time: 0.0166943
+Grind Rate: 783466
+Using cuBLAS for GEMM
+Train: 60000  Test: 10000
+Epoch 1 | Train Loss: nan | Train Acc: 48.316% | Val Loss: nan | Val Acc: 9.91%
+Epoch 2 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 3 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 4 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 5 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 6 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 7 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 8 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 9 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 10 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 11 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 12 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 13 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 14 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 15 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 16 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 17 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 18 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 19 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 20 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 21 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 22 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 23 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 24 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 25 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 26 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 27 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 28 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 29 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 30 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 31 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 32 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 33 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 34 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 35 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 36 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 37 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 38 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 39 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 40 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 41 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 42 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 43 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 44 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 45 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 46 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 47 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 48 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 49 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+Epoch 50 | Train Loss: nan | Train Acc: 9.864% | Val Loss: nan | Val Acc: 9.91%
+ | Test Acc: 9.8%
+Train time: 4.5255
+Infer time: 0.0370143
+Grind Rate: 552425
